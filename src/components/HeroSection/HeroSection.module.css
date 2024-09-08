@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.main {
+  background-color: #0d162e;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  padding: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.inner_container {
+  display: flex;
+  flex-direction: column;
+  padding: 6rem 4rem;
+  padding-bottom: 2rem;
+  color: white;
+}
+
+.heading {
+  text-align: center;
+  color: white; /* Ensure text is white */
+  font-size: 3rem;
+  padding-bottom: .5rem;
+}
+
+.highlight {
+  color: red; /* Color for highlighted text */
+}
+
+.tagline {
+  font-size: 2.5rem;
+  text-align: center;
+  padding-bottom: 0.5rem;
+}
+.description {
+  font-size: 1.1rem;
+  font-weight: 400;
+  opacity: 0.7;
+  text-align: center;
+  padding-top: 1rem;
+  padding-bottom: 0.5rem;
+}
+
+.btn_container
+{
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+.btn_container button{
+  padding: 1rem;
+  border-radius: 1.5rem;
+  font-size: 1rem;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
+.btn_container button:first-child
+{
+  background-color: rgb(46,177,222);
+}
+.btn_container button:nth-child(2)
+{
+  background-color: rgb(222,14,99);
+}
+.btn_container button:hover
+{
+  transform: scale(1.2);
+}
+.btn_container a{
+  text-decoration: none;
+  color: white;
+}
